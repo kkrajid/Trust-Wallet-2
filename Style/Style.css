@@ -1,0 +1,36 @@
+
+.bg-gradient-primary{
+    background-color: #0B65C6;
+}
+@media  (max-width: 760px){
+  .top1{
+    width: 40%;
+  }
+}
+.moveToRight{
+    position: relative;
+    animation: mymoveleft 1s;
+}
+
+.moveToLeft{
+    position: relative;
+    animation: mymoveright 1s;
+}
+.imgc img{
+    max-width: 240px;
+    max-height: 240px;
+}
+.foot span{
+    font-size: small;
+}
+.foot h5{
+    color:rgb(253, 182, 50);
+}
+.footdiv{
+    background-color:rgb(255, 251, 251) ;
+}
+@media (max-width: 760px){
+    div{
+        text-align: center;
+    }
+}
